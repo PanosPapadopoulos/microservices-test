@@ -1,0 +1,2 @@
+docker build -t panos/flex -f test .
+docker run --name panagiotisregsrv1 35f8367a0373

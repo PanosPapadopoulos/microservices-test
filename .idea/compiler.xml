@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="application-portal" />
+        <module name="authentication" />
+        <module name="discovery-server" />
+        <module name="RepositoryProject" />
+        <module name="ui" />
+        <module name="UI" />
+        <module name="zuulkeeper-gateway" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="application-portal" target="1.8" />
+      <module name="authentication" target="1.8" />
+      <module name="discovery-server" target="1.8" />
+      <module name="RepositoryProject" target="1.5" />
+      <module name="UI" target="1.5" />
+      <module name="ui" target="1.5" />
+      <module name="zuulkeeper-gateway" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+</project>
